@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  
+      <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <!-- <div><img src="ff.jpg" width="1400"height="65"></div> -->
+  
+    <div style="float:right;width: 46%; background-color:tan; border:0px solid rgb(198, 192, 255);border-radius:20px;padding: 2%;">  
+
+
+<body align="left">  
+  <p>   Register your account with Girosi web based shop to facilitate your business, just look down and click the link that direct you to create an acccount to access our service daily</p>
+  <p> If you have forgotten your password or user name just click forgot and enter your email so as we can verify if is you and we will give you the link for verification</p>
+
+<p> we wamlly welcome you for better service at Girosi online shop center</p> 
+<div class="mnyama">
+    <p style="color: blue;"> Login for registered</p> 
+    <div class="container">
+      <form action="more.html">
+        <input placeholder="Username" type="text" id="usrname" name="usrname" required>
+            <br>
+        <input placeholder="Enter password..." type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        <br>
+        <input class="mtu" type="submit" value="Login">
+        
+        
+      </form>
+    </div>
+    </div>
+    
+    <div id="message">
+      <h3>Password must contain the following:</h3>
+      <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+      <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+      <p id="number" class="invalid">A <b>number</b></p>
+      <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+    </div>
+            
+    <script>
+    var myInput = document.getElementById("psw");
+    var letter = document.getElementById("letter");
+    var capital = document.getElementById("capital");
+    var number = document.getElementById("number");
+    var length = document.getElementById("length");
+    
+    // When the user clicks on the password field, show the message box
+    myInput.onfocus = function() {
+      document.getElementById("message").style.display = "block";
+    }
+    
+    // When the user clicks outside of the password field, hide the message box
+    myInput.onblur = function() {
+      document.getElementById("message").style.display = "none";
+    }
+    
+    // When the user starts to type something inside the password field
+    myInput.onkeyup = function() {
+      // Validate lowercase letters
+      var lowerCaseLetters = /[a-z]/g;
+      if(myInput.value.match(lowerCaseLetters)) {  
+        letter.classList.remove("invalid");
+        letter.classList.add("valid");
+      } else {
+        letter.classList.remove("valid");
+        letter.classList.add("invalid");
+      }
+      
+      // Validate capital letters
+      var upperCaseLetters = /[A-Z]/g;
+      if(myInput.value.match(upperCaseLetters)) {  
+        capital.classList.remove("invalid");
+        capital.classList.add("valid");
+      } else {
+        capital.classList.remove("valid");
+        capital.classList.add("invalid");
+      }
+    
+      // Validate numbers
+      var numbers = /[0-9]/g;
+      if(myInput.value.match(numbers)) {  
+        number.classList.remove("invalid");
+        number.classList.add("valid");
+      } else {
+        number.classList.remove("valid");
+        number.classList.add("invalid");
+      }
+      
+      // Validate length
+      if(myInput.value.length >= 8) {
+        length.classList.remove("invalid");
+        length.classList.add("valid");
+      } else {
+        length.classList.remove("valid");
+        length.classList.add("invalid");
+      }
+    }
+    </script>
+     <center> <a href="register.html">Register New account </a> </center><br> <br>
+    <center> <a href="forget.html">Forget Password</a> </center>
+      </div>
+    </body>
+    
+
+    
+    <div style="float:left; width: 47%; background-color:rgba(109, 231, 156, 0.527); border:0px solid rgb(75, 223, 16);border-radius:20px; padding:1%; ">  
+     
+    <body>
+  
+   
+    <p> Quality, Value, and Service; the three values you can be sure of when you come to <b>Girosi Electronics Shop.</b> <br></p> 
+    <p>    <p>Their HQ ranks as the largest showroom in Dar es salaaam, and among the leading showrooms in Tanzania. With a complete range of home and office items they offer the benefits of being one-stop centre to their customers and clients.<br></p>
+    <p>The acceptance of their products by <br> corporate offices, learning institutions, government agencies, hospitals, private individuals and hotel buyers is a testimony towards our products quality and price competitiveness. </p>
+    It’s their experience and reliability that guarantees you get the perfect solution for your needs.
+    <p>  Their philosophy of continuous improvement and development should position them to stay focus on their customers highly expectations on quality, competitive price, speedy delivery, pre-sale consultation and after-sales servic</p>
+    
+      So we would like to welcome to our online electronics devices shop. Delivery of our goods is for free to customers who are in our city and for those who are far away from our city will contibute something so
+     as to get their goods.</p>
+     <p> We have goods like &nbsp <b>Phones,Irons, Rice cookers, Extensions, Sabwoofers, Cameras</b> and  <b> Laptops</b>.</p>
+   
+    </div> 
+  </body>
+     <div style="float:center;width: 53%;%;border:0px solid rgb(198, 192, 255);border-radius:20px;padding:1px; background-color:gray;">   <h1><b>Who we are👍</b></h1></div>
+
+
+
+
+   <div id="split">   
+    <!-- <div style="float:center;width: 40%;%;border:3px solid rgb(198, 192, 255);border-radius:20px;padding:5px;">   <h1><b>Who we are👍</b></h1></div> --> 
+<body>
+ 
+  <div style="float:center;width: 50%;%;border:0px solid rgb(198, 192, 255);border-radius:20px;padding:1px; background-color:tan;">
+
+  <p>
+   <marquee>
+   <img src="i.jpg" width="255"heigh"500">
+  <img src="black.jpg" width="255"heigh"500">
+  <img src="pasi.jpg" width="255"heigh"500">
+  <img src="c.jpg" width="223"heigh"500">
+  <img src="qq.jpg" width="236"heigh"500">
+  <img src="bufa.jpg" width="258"heigh"500">
+  <img src="cm.jpg" width="258"heigh"500">
+  <img src="cmr.jpg" width="413"heigh"500">
+</marquee> 
+</p>
+    </div> 
+  </head>
+  </body>
+
+
+
+  <!-- <div style="float:left; width: 30%; background-color:rgb(135, 209, 75); border:3px solid rgb(75, 223, 16);border-radius:20px; padding:16%; "> -->
+    
+    
+
+<footer>  
+  
+  <br>
+  
+  <br>
+  
+  <br>
+  <center> <p font-style="Italic" ><I>LIKE AND SUBSCRIBE US FOR UPDATES</I></p></center>
+ <center><p>
+  <a href="facebook"><img src="fb.png">  </a>
+  <a href="girosi.blogspot.com"><img src="blog.png">  </a>
+   <a href="google.com.html"><img src="gog.png">  </a>
+   <img src="kk.png">  
+   <img src="ma.png">  
+  </p></center> 
+  
+  <p align="left">Posted by: Official Girosi Son</p>
+  <p>
+  <img src="g.jpg" align="left"width="60"heigh"500">
+  </footer>
+
+</html>

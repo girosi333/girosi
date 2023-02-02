@@ -1,0 +1,137 @@
+
+/* Style all input fields */
+/* body {
+  background-image: url("GG.jpg");
+  border-radius:100px;
+   */
+/* } */
+
+
+
+
+input {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+.mtu{
+    width: 20%;
+    cursor: pointer;
+}
+.mtu:hover{
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #0851d9;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: tan;
+  padding: 6%;
+  width: 99%;
+  padding-right: ;
+  top: 10em;
+}
+.mnyama{
+    width: 150%;
+}
+body {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:tan;
+  margin-bottom: 10px;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+
+#ima {
+  width:0;
+  background-color: #e1e5ec;
+  border: #04AA6D;
+  padding: 40px;
+}
+
+#g {
+  width: 300px;
+}
+
+#body_container{
+	width: 980px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+  background-color: #0851d9;
+}
+
+
+
